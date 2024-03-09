@@ -76,11 +76,11 @@ public class Sorting {
         int price[]={7,1,5,3,6,4};
         int co[]={1,4,1,3,2,4,3,7};
         printArray(price);
-        Bubble(price);
-        System.out.println("Using Bubble Sort");
-        printArray(price);
-        System.out.println("Using Selection Sort");
-        printArray(price);
+        // Bubble(price);
+        // System.out.println("Using Bubble Sort");
+        // printArray(price);
+        // System.out.println("Using Selection Sort");
+        // printArray(price);
         System.out.println("Using Insertion Sort");
         insertionSort(price);
         printArray(price);

@@ -69,11 +69,11 @@ public class Recursion {
             return -1;
         }
         int isFound = lastOccurence(arr, key, i + 1);
-
+        // not found elsewhere: return slef 
         if (isFound == -1 && arr[i] == key) {
             return i;
         }
-        // check with self
+        // give the found position
         return isFound;
     }
 
